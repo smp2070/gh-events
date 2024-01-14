@@ -16,7 +16,8 @@ on:
       # developer-1
       # 
     paths-ignore:
-      - '.github/workflows/*'
+      # - '.github/workflows/*'
+      - 'src/**'
 jobs:
   deploy:
     runs-on: ubuntu-latest
